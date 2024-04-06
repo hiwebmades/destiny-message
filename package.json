@@ -22,6 +22,9 @@
     "eslint-plugin-vue": "^8.0.3",
     "vue-template-compiler": "^2.6.14"
   },
+  "devServer": {
+    "allowedHosts": "all"
+  },
   "eslintConfig": {
     "root": true,
     "env": {
