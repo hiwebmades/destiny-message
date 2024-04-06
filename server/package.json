@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node cluster.js"
+    "start": "node cluster.js",
+    "build":"npm i"
   },
   "author": "Damien Arrachequesne <damien.arrachequesne@gmail.com>",
   "license": "MIT",
