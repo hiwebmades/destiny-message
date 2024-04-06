@@ -23,7 +23,7 @@
     "vue-template-compiler": "^2.6.14"
   },
   "devServer": {
-    "allowedHosts": "all"
+    "disableHostCheck": true
   },
   "eslintConfig": {
     "root": true,
