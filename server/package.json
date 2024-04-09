@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"node cluster.js\" \"node health.js\"",
+    "start": "node cluster.js",
     "build": "npm i"
   },
   "author": "Damien Arrachequesne <damien.arrachequesne@gmail.com>",
@@ -18,8 +18,5 @@
     "socket.io": "^4.0.0",
     "socket.io-redis": "^6.0.1",
     "typescript": "^5.4.4"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
   }
 }
